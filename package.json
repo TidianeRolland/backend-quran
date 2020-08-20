@@ -1,0 +1,32 @@
+{
+  "name": "backend-quran",
+  "version": "1.0.0",
+  "description": "backend of quran streaming app using Express",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "test-init": "node ./node_modules/jasmine/bin/jasmine.js init",
+    "pretest": "eslint --ignore-path .gitignore .",
+    "test": "node ./node_modules/jasmine/bin/jasmine.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "author": "Tidi",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^9.1.2",
+    "@commitlint/config-conventional": "^9.1.2",
+    "eslint": "^7.7.0",
+    "eslint-config-strongloop": "^2.1.0",
+    "husky": "^4.2.5",
+    "jasmine": "^3.6.1",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "restify": "^8.5.1"
+  }
+}
