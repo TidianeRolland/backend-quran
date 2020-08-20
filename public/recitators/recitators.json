@@ -1,0 +1,34 @@
+{
+    "recitators": [
+        {
+            "id": "sudais",
+            "name": "Abderrahman Al Soudais",
+            "urlPhoto": "http://fr.assabile.com/media/person/200x256/abdul-rahman-al-sudais.png"
+        },
+        {
+            "id": "kalbani",
+            "name": "Adel Al Kalbani",
+            "urlPhoto": "http://fr.assabile.com/media/person/200x256/adel-al-kalbani.png"
+        },
+        {
+            "id": "juhani",
+            "name": "Abdullah Awad Al Juhani",
+            "urlPhoto": "http://fr.assabile.com/media/person/200x256/abdullah-awad-al-juhani.png"
+        },
+        {
+            "id": "matroud",
+            "name": "Abdallah Matroud",
+            "urlPhoto": "http://fr.assabile.com/media/person/200x256/abdallah-matroud.png"
+        },
+        {
+            "id": "mueaqly",
+            "name": "Maher Al Mueaqly",
+            "urlPhoto": "http://fr.assabile.com/media/person/200x256/maher-al-mueaqly.png"
+        },
+        {
+            "id": "dossari",
+            "name": "Yasser Al Dossari",
+            "urlPhoto": "http://fr.assabile.com/media/person/200x256/yasser-al-dossari.png"
+        }
+    ]
+}
